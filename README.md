@@ -1,2 +1,2 @@
-# DJIPsdkLattePandaMu
-利用拿铁熊猫制作的大疆psdk xport的开发板
+# LattePandaMu_carrier_custom
+LattePandaMu大疆无人机x-port专用开发板

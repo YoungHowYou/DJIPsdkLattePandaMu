@@ -1,0 +1,175 @@
+(footprint "Battery_Holder_CR1220_S8411-45R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "S8411-45R_1")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 4.36 4.45 270)
+		(layer "F.SilkS")
+		(uuid "a66298b4-8259-47e1-b3f9-2064541ec473")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery_Cell"
+		(at -0.412 -0.096 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b5052a6-047b-4924-ad68-65f36674ef1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0ddc64d-fa82-4834-a1ef-e3c58dc87e70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdbf1451-77a6-4eae-ba5f-ceb062b9b17d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Buy_Link" "https://item.szlcsc.com/1049689.html"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "895d2a16-8d68-4d0e-b355-94ba5875351e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DF_Comment" "CR1220电池底座_BS-12-B3AA003"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b90de17d-c6be-47a2-873f-c264187dcfec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SCH_Show_Footprint" ""
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22bbb70f-a449-4e94-a409-1257e5408098")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62987c99-03dc-4c06-ac02-c2a84ff33617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.5 0.5)
+		(end 4 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b4aa48fb-b984-415a-be40-fb23d6dc02fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 180)
+		(layer "F.Fab")
+		(uuid "ffaa42f8-2c61-4f3c-be10-212720aff2b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.5 3)
+		(size 2.3 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections no)
+		)
+		(uuid "eab935e3-9ec4-4903-be38-15cc704db71c")
+	)
+	(pad "2" smd rect
+		(at -2 3)
+		(size 2.3 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections no)
+		)
+		(uuid "96ed5f4c-b905-4f2b-9099-7f2c351e0588")
+	)
+	(embedded_fonts no)
+	(model "D:/项目/2023样品项目/LattePanda Mu/LIB_S8411-45R/S8411-45R/3D/S8411-45R.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

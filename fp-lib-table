@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "A_HDJ_Library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/A_HDJ_Library.pretty")(options "")(descr ""))
+  (lib (name "Module_LattePanda")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Module_LattePanda.pretty")(options "")(descr ""))
+  (lib (name "PCB_Lib")(type "KiCad")(uri "D:/Desktop/electron/kicadLIB/KiCAD_lib/PCB_Lib/网口.pretty")(options "")(descr ""))
+  (lib (name "SOP")(type "KiCad")(uri "D:/Desktop/electron/kicadLIB/KiCAD_lib/PCB_Lib/SOP.pretty")(options "")(descr ""))
+)
